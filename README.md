@@ -1,6 +1,6 @@
 # upload-art
 
-## Usage
+## Upload Art
 
 ```
 pip3 install -r requirements.txt
@@ -25,3 +25,14 @@ Uses the open source project [samsung-tv-ws-api](https://github.com/xchwarze/sam
 that library can do (deleting images, setting photo filter, setting matte, changing the channel, opening an app, etc.)
 
 Apparently this is not compatible with model year 2022 and later Frame TVs. :( 
+
+## Find TVs
+
+We can look for TVs using multicast DNS service discovery, assuming it's listening for AirPlay connections:
+
+```
+$ python3 find-tvs.py
+Press enter to exit...
+
+Found Samsung The Frame, hostname: Samsung.local.
+```
