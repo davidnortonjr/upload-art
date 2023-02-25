@@ -1,5 +1,7 @@
 # upload-art
 
+Uploads art to Samsung The Frame TV (pre-2022 models).
+
 ## Upload Art
 
 ```
