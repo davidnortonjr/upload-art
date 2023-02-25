@@ -18,8 +18,9 @@ It also automatically selects the image.
 
 Lots of great, free art [here](https://useum.org/download-artworks). You just need to resize.
 
-On my network, the TV was available on `samsung.local`. However, if you need to connect via IP, you can add the `--host` 
-flag (see usage). I found my TV IP address by looking at my wifi router's admin page.
+On my network, the TV was available on `samsung.local`. However, if you need to connect via another host or IP, you can 
+add the `--host` flag (see usage). You can find TV IP address by looking at your wifi router's admin page, or using the
+"Find TVs" instructions below.
 
 Uses the open source project [samsung-tv-ws-api](https://github.com/xchwarze/samsung-tv-ws-api/). There is a lot more 
 that library can do (deleting images, setting photo filter, setting matte, changing the channel, opening an app, etc.)
