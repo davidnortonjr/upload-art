@@ -4,10 +4,10 @@
 
 ```
 pip3 install -r requirements.txt
-python3 upload-art.py <image_path> <frame_tv_ip>
+python3 upload-art.py <image_path>
 
 #e.g.:
-python3 upload-art.py ~/Desktop/the-japanese-footbridge-claude-monet-1899-1b2747f1.jpg 192.168.1.39
+python3 upload-art.py ~/Desktop/the-japanese-footbridge-claude-monet-1899-1b2747f1.jpg
 ```
 
 The art should be the correct dimensions (3840x2160) and in JPEG format. This assumes you don't want to use a matte -- I
@@ -18,7 +18,8 @@ It also automatically selects the image.
 
 Lots of great, free art [here](https://useum.org/download-artworks). You just need to resize.
 
-I found my TV IP address by looking at my wifi router's admin page.
+On my network, the TV was available on `samsung.local`. However, if you need to connect via IP, you can add the `--host` 
+flag (see usage). I found my TV IP address by looking at my wifi router's admin page.
 
 Uses the open source project [samsung-tv-ws-api](https://github.com/xchwarze/samsung-tv-ws-api/). There is a lot more 
 that library can do (deleting images, setting photo filter, setting matte, changing the channel, opening an app, etc.)
