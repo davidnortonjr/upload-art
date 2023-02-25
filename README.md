@@ -20,6 +20,7 @@ Lots of great, free art [here](https://useum.org/download-artworks). You just ne
 
 I found my TV IP address by looking at my wifi router's admin page.
 
-Uses the open source project [samsung-tv-ws-api](https://github.com/xchwarze/samsung-tv-ws-api/). 
+Uses the open source project [samsung-tv-ws-api](https://github.com/xchwarze/samsung-tv-ws-api/). There is a lot more 
+that library can do (deleting images, setting photo filter, setting matte, changing the channel, opening an app, etc.)
 
-Apparently not compatible with model year 2022 and later Frame TVs. :( 
+Apparently this is not compatible with model year 2022 and later Frame TVs. :( 
